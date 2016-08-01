@@ -1,7 +1,7 @@
 ---
 applications:
-- name: spring-music-uat
+- name: spring-music-uatRJ
   memory: 512M
   instances: 1
-  host: s1p-11-spring-music-uat
+  host: s1p-11-spring-music-uatRJ
   buildpack: java_buildpack

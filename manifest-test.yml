@@ -1,7 +1,7 @@
 ---
 applications:
-- name: spring-music-test
+- name: spring-music-testRJ
   memory: 512M
   instances: 1
-  host: s1p-11-spring-music-test
+  host: s1p-11-spring-music-testRJ
   buildpack: java_buildpack
