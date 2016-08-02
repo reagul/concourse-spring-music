@@ -1,7 +1,7 @@
 ---
 applications:
-- name: spring-music
+- name: spring-musicRJPROD
   memory: 512M
   instances: 1
-  host: s1p-11-spring-music
+  host: s1p-11-spring-musicRJ
   buildpack: java_buildpack

@@ -8,9 +8,9 @@ CF_DEV_SPACE: raviJag
 CF_TEST_ORG: Northeast / Canada
 CF_TEST_SPACE: dev_one
 CF_UAT_ORG: Northeast / Canada
-CF_UAT_SPACE: commons2
-CF_PROD_ORG: Northeast / Canada 
-CF_PROD_SPACE: prod3434
+CF_UAT_SPACE: dev_two
+CF_PROD_ORG: Northeast / Canada
+CF_PROD_SPACE: Demo_Prd
 S3_ACCESS_KEY_ID: AKIAJAGAED6RXOBRQZ7A
 S3_SECRET_ACCESS_KEY: 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
 S3_BUCKET: 	s3-bucket-version-rj
@@ -48,4 +48,4 @@ VERIFY_URL: http://spring-music-RJ.cfapps.io
 
 S3_VERSION_FILE: spring-music-RJ(.*).war
 S3_PIPELINE_ARTIFACTS: spring-music-RJ(.*).war
-S3_DEPLOYMENTS:
+S3_DEPLOYMENTS: s3-bucket-version-rj
